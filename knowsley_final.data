@@ -1,0 +1,6 @@
+classes= 4
+train  = G:/data/knowsley_final_split/train_clean_10.txt
+valid  = G:/data/knowsley_final_split/val.txt
+names = G:/data/knowsley_final_split/obj.names
+backup = G:/data/knowsley_final_split/trained_models/models/yolov4
+eval=coco

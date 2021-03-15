@@ -1,0 +1,15 @@
+# Knowsley final dataset
+# Train command: python ~/code/yolov5/train.py --data knowsley_final_ultralytics.yaml
+
+# download command/URL (optional)
+#download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: E:\data\knowsley_final_split\train_clean_10.txt
+val: E:\data\knowsley_final_split\val_clean.txt
+
+# number of classes
+nc: 4
+
+# class names
+names: [ 'car', 'deer', 'human', 'rhino' ]
