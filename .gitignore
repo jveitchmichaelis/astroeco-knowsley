@@ -1,0 +1,5 @@
+train_cleaned/*.jpg
+test/*.jpg
+val/*.jpg
+train_cleaned_10/*.jpg
+val_cleaned/*.jpg
